@@ -1,0 +1,60 @@
+/* Reset básico */* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body y tipografía */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Navegación */
+nav {
+  background-color: #800020; /* burgundy */
+  padding: 10px 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: #FFD700; /* amarillo */
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #FFFF00; /* amarillo más brillante al pasar el mouse */
+}
+
+/* Contenido principal */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Separación entre imagen y video */
+.imagen-video {
+  margin: 20px 0;
+}
+
+/* Imagen centrada y responsiva */
+.imagen-video img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Video centrado */
+.imagen-video iframe {
+  max-width: 100%;
+  border-radius: 10px;
+}
